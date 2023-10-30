@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentcustomer servey form</title>
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+</head>
+
+<body style="background-color: aqua;">
+
+    <div class="content">
+        <h1>Customer Servey Form</h1>
+
+    </div>
+    <form action="/myaction.php" name="myform" onsubmit="validateform()" method="post">
+
+        <div class="formdesign" id="name">
+            Name: <input type="text"  name="fname"  placeholder="Enter you name here"><b><span class="formerror"></b></span>
+        </div>
+        <div class="formdesign" id="name">
+            Lname: <input type="text" placeholder="Enter you name here"></input>
+        </div>
+        <div class="formdesign" id="name">
+            D.O.B:<input type="date" id="date"></input>
+        </div>
+        Country:<select name="Country">
+            <option value="India">India</option>
+            <option value="America">America</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chandigarh">Chandigarh</option>
+        </select>
+        <div class="formdesign" id="name">
+            Gender:
+            <input type="Radio" value="Male">Male</input>
+            <input type="Radio" value="female">Female</input>
+
+        </div>
+        Profession:<input type="text" required />
+        <div class="formdesign" id="profession">
+            Email:<input type="email" placeholder="xyz123@gmail.com" name="femail " required /><b><span class="formerror"></b></span>
+        </div>
+        <div class="formdesign" id="password">
+            Password:<input type="password" placeholder="enter you password" name="password" /><b><span class="formerror"></b></span>
+        </div>
+        <div class="formdesign" id="number">
+            Mobile No.<input type="number"  required  name="fphone"/><b><span class="formerror"></b></span>
+        </div>
+
+        <div>
+            How satisfied are you with company
+        </div>
+        <input type="radio" value="yes">Satisfied</input>
+        <input type="radio" value="yes">Undecided</input>
+        <input type="radio" value="yes">UnSatisfied</input>
+        </div>
+        <div>Is this time you are Using Our Product & Service</div>
+        <input type="radio" value="yes">Yes</input>
+        <input type="radio" value="yes">NO</input>
+        <div>
+
+            <button style="color: white;
+            background-color: blue">Submit</button>
+            <button style="color: white;
+            background-color: red">Reset</button>
+
+
+        </div>
+        </div>
+    </form>
+    <script src="javascript.js"></script>
+</body>
+
+</html>

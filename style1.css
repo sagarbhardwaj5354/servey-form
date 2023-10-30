@@ -1,0 +1,27 @@
+.content{
+    text-align: center;
+    background-color: blue;
+
+} 
+/* .survey{
+    text-align: center;
+} */
+.formerror{
+    color: red;
+}
+.formdesign{
+    width: 50%;
+    padding: 12px 20px;
+    border: 1px solid blue;
+    margin: 14px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.input{
+    width: 50%;
+    padding: 12px 20px;
+    border: 1px soloid blue;
+    margin: 14px;
+    border-radius: 4px;
+    font-size: 15px;
+}
